@@ -1,13 +1,7 @@
-"""
-    Creacion de clase dia en Python:
-Desarrollar una clase Dia, que represente una fecha, sin hacer uso de librerías.
-* La clase tendrá los atributos: Dia, Mes, Anyo, Dia_Semana.
-* Verificacion de fecha correcta (a traves de ValueError).
-* Calculo del dia de la semana (algoritmo de Zeller).
-"""
+
 
 class Dia:
-    def __init__(self,dia=1, mes=1, anyo=1970,  dia_semana=0):
+    def __init__(self,dia=1, mes=1, anyo=1970,  dia_semana=5):
         self.dia = dia
         self.mes = mes
         self.anyo = anyo
