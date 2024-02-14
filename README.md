@@ -1,12 +1,14 @@
-    ##Néstor González Suárez Clase_Dia##
-#Prueba final POO, TDD, Python#
+    
+## Néstor González Suárez Clase_Dia
+
+# Prueba final POO, TDD, Python
 
 
-##1 Enunciado del Ejercicio: Creación de la Clase Dia en Python##
+## 1 Enunciado del Ejercicio: Creación de la Clase Dia en Python
 
 Objetivo: Desarrollar una clase Dia en Python que represente una fecha, la cual puede ser inicializada con valores por defecto (1 de enero de 1970) o con valores específicos de fecha (año, mes, día) proporcionados por el usuario. Esta clase debe ser implementada sin utilizar ninguna librería estándar o no estándar de Python, apoyándose únicamente en cálculos numéricos para todas sus operaciones.
 
-#Requisitos de la Clase Dia:#
+# Requisitos de la Clase Dia:
 
 • **Inicialización:** La clase debe poder inicializarse tanto con valores por defecto (1 de enero de 1970) como con una fecha específica proporcionada por el usuario. Debe validar que la fecha es correcta, considerando años bisiestos.
 Es decir si creas una instancia de Día tal que asi d = Dia(), eso significara que d tendra los valores d.dia = 1, d.mes = 1, d.anyo = 1970.
