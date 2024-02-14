@@ -6,7 +6,7 @@ class Dia:
         self.mes = mes
         self.anyo = anyo
         self.dia_semana = dia_semana        
-        # Validamos que los parametros sean correctos.
+        # Validamos que los parametros sean correctos, si no, lanza ValueError.
         if not isinstance(anyo, int) or anyo < 1:
             raise ValueError("El año debe ser un entero positivo")
         if not isinstance(mes, int) or mes < 1 or mes > 12:
