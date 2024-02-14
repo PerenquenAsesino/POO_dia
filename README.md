@@ -17,10 +17,13 @@ de tipo ValueError con el mensaje que desees, ya que abril solo tiene 30 días.
 Si intentas crear una fecha tal que d = Dia(1970, 4, 7) d tendrá los siguientes atributos d.dia = 7, d.mes = 4, d.anyo = 1970.
 
 **• Atributos:** La clase tendrá los atributos:
-– **dia:** dia del mes.
-– **mes:** numero del mes, 1 enero, 12 diciembre.
-– **anyo:** numero del año. Siempre después de cristo (desde el 1 en adelante).
-– **dia_semana:** numero del dia de la semana siendo 0 el sabado y el 6 el viernes
+- **dia:** dia del mes.
+
+- **mes:** numero del mes, 1 enero, 12 diciembre.
+
+- **anyo:** numero del año. Siempre después de cristo (desde el 1 en adelante).
+
+- **dia_semana:** numero del dia de la semana siendo 0 el sabado y el 6 el viernes
 representada.
 
 **• Verificación de Fecha Correcta:** Incluir lógica para verificar la validez de la fecha, incluyendo la correcta identificación de años bisiestos.

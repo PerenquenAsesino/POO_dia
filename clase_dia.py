@@ -1,7 +1,7 @@
 
-
+# Inicializamos la clase
 class Dia:
-    def __init__(self,dia=1, mes=1, anyo=1970,  dia_semana=5):
+    def __init__(self,dia=1, mes=1, anyo=1970,  dia_semana=4):
         self.dia = dia
         self.mes = mes
         self.anyo = anyo
@@ -44,19 +44,13 @@ class Dia:
         e = 13 * (mes_modificado + 1) // 5
         f = a + c + d + e + self.dia - 1
         g = f % 7 
-
         return g
        
     # Metodo especial para imprimir todos los valores del objeto.
     def __str__(self):
         return f"Dia: {self.dia}, Mes: {self.mes}, Año: {self.anyo}, Dia de la semana: {self.dia_semana}"
 
-   
-
-
-
-d = Dia(27, 1, 2024)
-print(d)
+# Impresiones de prueba  
 d = Dia(28, 12, 2024)
 print(d)
 d = Dia(29, 12, 2024)
@@ -64,6 +58,4 @@ print(d)
 d = Dia(30, 12, 2024)
 print(d)
 d = Dia(31, 12, 2024)
-print(d)
-d = Dia()
 print(d)
