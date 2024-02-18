@@ -20,7 +20,7 @@ class Dia:
         return self.anyo % 4 == 0 and (self.anyo % 100 != 0 or self.anyo % 400 == 0)
 
     # Devuelve el numero de dias segun el mes.
-    def dias_en_mes(self):
+    def dias_en_mes(self):        
         if self.mes in [1, 3, 5, 7, 8, 10, 12]:
             return 31
         elif self.mes == 2:
@@ -50,6 +50,7 @@ class Dia:
     def __str__(self):
         return f"Dia: {self.dia}, Mes: {self.mes}, Año: {self.anyo}, Dia de la semana: {self.dia_semana}"
 
+"""
 # Impresiones de prueba  
 d = Dia(28, 12, 2024)
 print(d)
@@ -59,3 +60,5 @@ d = Dia(30, 12, 2024)
 print(d)
 d = Dia(31, 12, 2024)
 print(d)
+
+"""
