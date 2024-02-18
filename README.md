@@ -1,6 +1,6 @@
     
 # Néstor González Suárez "Clase Dia y Clase WallCalendar"
-** Se entrega los dos ejercicios solicitados, el obligatorio y el opcional.**
+** Se entrega los dos ejercicios solicitados, el obligatorio y el opcional.
 
 # Prueba final POO, TDD, Python
 

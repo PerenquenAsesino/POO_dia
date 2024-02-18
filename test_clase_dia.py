@@ -36,3 +36,4 @@ def test_zeller():
     assert fecha1.dia_de_la_semana() == 5
     assert fecha2.dia_de_la_semana() == 6
     assert fecha3.dia_de_la_semana() == 0
+    
